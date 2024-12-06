@@ -7,7 +7,8 @@ import {
   House,
   Heart,
   Shirt,
-  FileDigit
+  FileDigit,
+  Bitcoin
 } from 'lucide-react';
 
 import { NavMain } from '@/components/nav-main';
@@ -50,6 +51,11 @@ const navMain = [
 
 const data = {
   projects: [
+    {
+      name: 'Crypto Price',
+      url: 'https://crypto-price-dashboard-kappa.vercel.app/',
+      icon: Bitcoin
+    },
     {
       name: 'Power of Numbers',
       url: 'https://power-of-numbers.vercel.app/',
