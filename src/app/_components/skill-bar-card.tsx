@@ -31,7 +31,7 @@ export default function SkillBarCard({ name, value }: SkillBarCardProps) {
         }
       }, stepTime);
     }
-  }, [value]);
+  }, [value, isNumber]);
 
   return (
     <div className="space-y-2">
