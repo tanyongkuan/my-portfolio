@@ -68,7 +68,7 @@ const data = {
     },
     {
       name: 'Pokemon Tinder',
-      url: 'https://pokemon-tinder.netlify.app/',
+      url: 'https://pokemon-tinder-alpha.vercel.app/',
       icon: Heart
     }
   ]
